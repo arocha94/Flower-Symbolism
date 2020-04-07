@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav-bar {
+  background-color: #DAA520;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-family: 'Montez', cursive;
+  color: white;
+  font-size: 250%;
+  text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+   .correct-ratio {
+     height: 300px;
+     width: 350px;
+     border-radius: 50%;
+     padding: 15px;
+     margin: 15px;
+     margin: 0 auto;
+     object-fit: cover;
+  }
+
+  span {
+    display: flex;
+    display: inline-block;
+  }
+
+
+
+  @media screen and (max-width: 900px) {
+      .container {
+        width: 90%;
+      }
+
+      img {
+        width: 350px;
+        height: 300px;
+      }
+    }
